@@ -1,0 +1,30 @@
+
+.input-content {
+  display: flex;
+  min-width: 200px;
+  height: 40px;
+  width: 350px;
+  border-radius: 8px;
+  background-color: var(--secondary-bg-color);
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input-content input {
+  flex: 1;
+  border: transparent;
+  background: none;
+  border-radius:8px;
+  font-size: 20px;
+  padding: 0 10px;
+}
+
+.input-content input:focus-visible {
+ outline: none;
+ caret-shape: block;
+
+}
+.search-icon {
+  margin: 5px;
+  fill: var(--accent-color-dark);
+}

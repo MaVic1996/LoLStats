@@ -1,0 +1,23 @@
+
+/* .light {
+  --main-bg-color: #ffffffd5;
+  --main-text-color: #272727;
+  --secondary-color: #19a095;
+} */
+
+:root {
+  --main-bg-color: #272727;
+  --secondary-bg-color: #ffffffd5;
+  --accent-color: #1fc9bb;
+  --accent-color-dark: #1ca89d;
+  --accent-color-bright: #2bffed;
+}
+
+
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--secondary-bg-color);
+  font-family:"Lucida Console", "Courier New", monospace;
+  line-height: 1.4;
+}
